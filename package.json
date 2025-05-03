@@ -26,6 +26,7 @@
   "slidev": {
     "colorSchema": "both",
     "defaults": {
+      "transition": "slide-up",
       "fonts": {
         "sans": "Nunito Sans",
         "mono": "Fira Code"

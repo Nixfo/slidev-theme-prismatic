@@ -12,7 +12,7 @@
 }
 
 .slidev-layout:not(.slidev-vclick-prior) h1 {
-    animation: fadeIn 0.8s ease-out;
+    animation: fadeIn 1.6s ease-out;
 }
 
 /* Animation for elements on v-click */
