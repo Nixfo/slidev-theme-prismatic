@@ -1,5 +1,10 @@
 ---
 theme: ./
+title: How to make a <span class="title-highlight">Slidev</span> <span class="title-accent">theme?</span>
+subtitle: PowerPoint is now an old pain
+author: Nicolas FONDACCI
+date: 3 may 2025
+event: Event or conference
 ---
 
 # Slidev Theme Starter
@@ -11,6 +16,16 @@ Presentation slides for developers
     Press Space for next page <div class="i-carbon:arrow-right inline-block"/>
   </span>
 </div>
+
+---
+layout: intro
+---
+
+::logo::
+<img src="/talan-logo.svg" class="h-12" />
+
+::footer::
+<div class="text-sm opacity-50">© 2025 Copyright</div>
 
 ---
 

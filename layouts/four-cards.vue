@@ -1,7 +1,7 @@
 <template>
   <div class="slidev-layout four-cards-layout">
-    <h1 v-if="$slidev.configs.title">
-      <slot name="title">{{ $slidev.configs.title }}</slot>
+    <h1 v-if="$slots.title || slideTitle">
+      <slot name="title">{{ slideTitle }}</slot>
     </h1>
 
     <div class="grid grid-cols-2 gap-4 mt-4">
@@ -25,12 +25,15 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'; 
+
 const props = defineProps({
   colors: {
     type: Array,
     default: ['blue', 'teal', 'amber', 'rose'],
   }
 })
+const slideTitle = computed(() => $frontmatter.title);
 </script>
 
 <style>

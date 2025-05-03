@@ -1,0 +1,26 @@
+/* Animation for titles on page loading */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slidev-layout:not(.slidev-vclick-prior) h1 {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Animation for elements on v-click */
+.slidev-vclick-target {
+    transition: all 0.5s ease;
+}
+
+.slidev-vclick-hidden {
+    opacity: 0;
+    transform: translateY(10px);
+}
