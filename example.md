@@ -20,6 +20,8 @@ layout: intro
 
 Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
 
+<v-clicks>
+
 - 📝 **Text-based** - focus on your content with Markdown, then style it later
 - 🎨 **Themable** - themes can be shared and reused as npm packages
 - 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
@@ -28,6 +30,7 @@ Slidev is a slide maker and presentation tool designed for developers. It includ
 - 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
 
+</v-clicks>
 <br>
 <br>
 

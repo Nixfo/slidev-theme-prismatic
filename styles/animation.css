@@ -24,3 +24,14 @@
     opacity: 0;
     transform: translateY(10px);
 }
+
+/* Animation for zooming in the active list item */
+/* Highlight the active list item */
+li.slidev-vclick-target.slidev-vclick-current {
+    animation: zoomIn 0.3s ease;
+    transform: scale(1.1);
+}
+/* Low opacity for previous list item */
+li.slidev-vclick-prior {
+    opacity: 0.7;
+}
