@@ -1,8 +1,8 @@
 :root {
   /* default theme color */
   /* can be overrided by using `themeConfig` option */
-  --slidev-theme-nifxo-primary: #5d8392;
-  --slidev-theme-nifxo-accent: #f59e0b;
+  --slidev-theme-primary: #5d8392;
+  --slidev-theme-accent: #f59e0b;
 }
 
 .slidev-layout.cover,
@@ -38,10 +38,10 @@ h6 {
 }
 
 .slidev-layout ul li strong {
-  color: var(--slidev-theme-nifxo-primary);
+  color: var(--slidev-theme-primary);
 }
 
 .slidev-layout ul li::marker {
-  color: var(--slidev-theme-nifxo-primary);
+  color: var(--slidev-theme-primary);
   font-size: 1.2em;
 }
