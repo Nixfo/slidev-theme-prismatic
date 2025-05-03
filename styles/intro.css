@@ -1,7 +1,6 @@
 .slidev-layout h1 .title-highlight {
   color: var(--slidev-theme-primary);
   position: relative;
-  font-weight: 800;
 }
 
 .slidev-layout h1 .title-highlight::after {
@@ -14,11 +13,9 @@
   background-color: var(--slidev-theme-primary);
   opacity: 0.3;
   border-radius: 0.05em;
-  z-index: -1;
 }
 
 .slidev-layout h1 .title-accent {
   color: var(--slidev-theme-accent);
   font-style: italic;
-  font-weight: 700;
 }
