@@ -43,7 +43,7 @@ layout: default
 </IconBlock>
 
 <IconBlock color="green" icon="i-carbon:growth" title="Growth" class='mb-2'>
-  Growth analysis...
+  See my repository at GitHub using`GithubStars` <GithubStars stars="104.8k" repo="microsoft/TypeScript" />
 </IconBlock>
 
 <IconBlock color="violet" icon="i-carbon:code" title="Code" class='mb-2'>
