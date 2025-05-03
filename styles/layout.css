@@ -1,6 +1,6 @@
 :root {
   /* default theme color */
-  /* can be overrided by uses `themeConfig` option */
+  /* can be overrided by using `themeConfig` option */
   --slidev-theme-nifxo-primary: #5d8392;
   --slidev-theme-nifxo-accent: #f59e0b;
 }
@@ -22,4 +22,26 @@
   table + h2 {
     @apply mt-10;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold text-gray-800 dark:text-gray-200;
+}
+
+.slidev-layout ul {
+  list-style: disc;
+}
+
+.slidev-layout ul li strong {
+  color: var(--slidev-theme-nifxo-primary);
+}
+
+.slidev-layout ul li::marker {
+  color: var(--slidev-theme-nifxo-primary);
+  font-size: 1.2em;
 }
