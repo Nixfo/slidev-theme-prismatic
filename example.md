@@ -81,6 +81,10 @@ src: ./icon-block.md
 ---
 
 ---
+src: ./color-palette.md
+---
+
+---
 layout: center
 class: "text-center"
 ---
