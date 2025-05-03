@@ -1,19 +1,19 @@
 ---
 layout: four-cards
-title: Ma diapositive avec 4 carrés
+title: four-cards usage
 ---
 
 ::card1::
-### Carré 1
-Contenu du premier carré...
+### Card 1
+First card content...
 
 ::card2::
-### Carré 2
-Contenu du deuxième carré...
+### Card 2
+Second card content...
 
 ::card3::
-### Carré 3
-Contenu du troisième carré...
+### Card 3
+Third card content...
 ```ts
 import * as fs from node:fs
 
@@ -25,5 +25,30 @@ main(): void {
 ```
 
 ::card4::
-### Carré 4
-Contenu du quatrième carré...
+### Card 4
+Fourth card content...
+
+---
+layout: default
+---
+
+# IconBlock usage
+
+<IconBlock color="red" icon="i-carbon:chart-maximum" title="Performances" class='mb-2'>
+  Detailled content of the performances...
+</IconBlock>
+
+<IconBlock color="blue" icon="i-carbon:idea" title="Innovation" class='mb-2'>
+  Description of a new idea...
+</IconBlock>
+
+<IconBlock color="green" icon="i-carbon:growth" title="Growth" class='mb-2'>
+  Growth analysis...
+</IconBlock>
+
+<IconBlock color="violet" icon="i-carbon:code" title="Code" class='mb-2'>
+  Code block inside
+```ts
+const i = 0;
+```
+</IconBlock>
