@@ -53,7 +53,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image:  ./cover-slidev.webp
 ---
 
 # Code
@@ -76,19 +76,23 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-src: ./four-cards.md
+src: ./icon-block-example.md
 ---
 
 ---
-src: ./icon-block.md
+src: ./content-card-example.md
 ---
 
 ---
-src: ./color-palette.md
+src: ./card-grid-example.md
 ---
 
 ---
-src: ./utilities.md
+src: ./color-palette-example.md
+---
+
+---
+src: ./utilities-example.md
 ---
 
 ---

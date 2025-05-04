@@ -3,10 +3,10 @@ layout: none
 ---
 
 <div class="grid grid-cols-5 gap-4 p-4">
-    <InfoCard v-for="color in colors" :key="color" :color="color">
+    <ContentCard v-for="color in colors" :key="color" :color="color">
         <h3>{{ color }}</h3>
         <p>{{ color }} card</p>
-    </InfoCard>
+    </ContentCard>
 </div>
 
 <script setup>

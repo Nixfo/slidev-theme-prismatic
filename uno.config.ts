@@ -20,7 +20,7 @@ const safelist = colors.flatMap(color => [
   `dark:text-${color}-300`, 
   `border-${color}-200`, 
   `dark:border-${color}-800`
-]);
+]).concat('gap-1', 'gap-2', 'gap-3', 'gap-4', 'gap-5', 'gap-6', 'gap-7', 'gap-8', 'gap-9', 'gap-10');
 
 export default defineConfig({
   safelist: safelist,
