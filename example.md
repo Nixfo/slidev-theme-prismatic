@@ -88,6 +88,10 @@ src: ./color-palette.md
 ---
 
 ---
+src: ./utilities.md
+---
+
+---
 layout: center
 class: "text-center"
 ---
