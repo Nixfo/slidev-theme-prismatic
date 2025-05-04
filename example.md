@@ -2,17 +2,17 @@
 theme: ./
 title: How to make a <span class="title-highlight">Slidev</span> <span class="title-accent">theme?</span>
 subtitle: PowerPoint is now an old pain
-author: Nicolas FONDACCI
-date: 3 may 2025
+author: Author
+date: Date
 event: Event or conference
 layout: intro
 ---
 
 ::logo::
-<img src="/talan-logo.svg" class="h-12" />
+<img src="/slidev-logo.png" class="h-12" />
 
 ::footer::
-<div class="text-sm opacity-50">© 2025 Copyright</div>
+<div class="text-sm opacity-50">Footer placeholder</div>
 
 ---
 
