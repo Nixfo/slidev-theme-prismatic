@@ -1,11 +1,15 @@
 {
-  "name": "slidev-theme-nixfo",
+  "name": "slidev-theme-prismatic",
   "version": "0.0.0",
   "type": "module",
   "keywords": [
     "slidev-theme",
-    "slidev"
+    "slidev",
+    "prismatic",
+    "colorful",
+    "cards"
   ],
+  "author": "Nicolas Fondacci",
   "engines": {
     "node": ">=18.0.0"
   },

@@ -1,6 +1,6 @@
-# slidev-theme-nixfo
+# slidev-theme-prismatic
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-nixfo?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-nixfo)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-prismatic?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-prismatic)
 
 A colorful, card-based theme for [Slidev](https://github.com/slidevjs/slidev).
 
@@ -15,7 +15,7 @@ A colorful, card-based theme for [Slidev](https://github.com/slidevjs/slidev).
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>nixfo</b>
+theme: <b>prismatic</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
@@ -29,7 +29,7 @@ Introduction slide with title, author, date and event information
 
 ```markdown
 ---
-theme: nixfo
+theme: prismatic
 title: How to make a <span class="title-highlight">Slidev</span> <span class="title-accent">theme?</span>
 subtitle: PowerPoint is now an old pain
 author: Author
