@@ -88,6 +88,10 @@ src: ./card-grid-example.md
 ---
 
 ---
+src: ./interactive-content-example.md
+---
+
+---
 src: ./color-palette-example.md
 ---
 
