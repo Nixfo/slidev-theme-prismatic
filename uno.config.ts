@@ -1,3 +1,4 @@
+import presetLegacyCompat from '@unocss/preset-legacy-compat'
 import { defineConfig } from 'unocss';
 
 const colors = [
@@ -21,4 +22,9 @@ const safelist = colors.flatMap(color => [
 
 export default defineConfig({
   safelist: safelist,
+  presets: [
+    presetLegacyCompat({
+      legacyColorSpace: true,
+    }),
+  ],
 });

@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@slidev/cli": "^51.6.0",
+    "@unocss/preset-legacy-compat": "^66.1.1",
     "unocss": "66.1.0-beta.13"
   },
   "//": "Learn more: https://sli.dev/guide/write-theme.html",

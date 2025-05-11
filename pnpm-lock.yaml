@@ -15,6 +15,9 @@ importers:
       '@slidev/cli':
         specifier: ^51.6.0
         version: 51.6.0(@babel/parser@7.27.1)(@nuxt/kit@3.17.1)(@types/markdown-it@14.1.2)(@types/node@18.19.87)(@vue/compiler-sfc@3.5.13)(markdown-it-async@2.2.0)(postcss@8.5.3)
+      '@unocss/preset-legacy-compat':
+        specifier: ^66.1.1
+        version: 66.1.1
       unocss:
         specifier: 66.1.0-beta.13
         version: 66.1.0-beta.13(postcss@8.5.3)(vite@6.3.4(@types/node@18.19.87)(jiti@2.4.2)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.3))
@@ -780,6 +783,9 @@ packages:
   '@unocss/core@66.1.0-beta.13':
     resolution: {integrity: sha512-kf5QIlReypn5dE18CqaEP7pRQlSoVP0O+Y3Y0nSF6U/TU9eB4InDhLfZF1PzjgR2EWQIaqnVTFNtAN52uJIFYQ==}
 
+  '@unocss/core@66.1.1':
+    resolution: {integrity: sha512-EOewEnipyB7Y6ne0YQmxdCG1hbMjYJ7oPMeHKfQuCZz60DPzkYwV6zVMa35ySMs1xljb/vFTHVFcJA8du3i8XA==}
+
   '@unocss/extractor-arbitrary-variants@66.0.0':
     resolution: {integrity: sha512-vlkOIOuwBfaFBJcN6o7+obXjigjOlzVFN/jT6pG1WXbQDTRZ021jeF3i9INdb9D/0cQHSeDvNgi1TJ5oUxfiow==}
 
@@ -818,6 +824,9 @@ packages:
 
   '@unocss/preset-icons@66.1.0-beta.13':
     resolution: {integrity: sha512-PefDt6sJB++Y/p0zYDU7s+DR1h+OQIIqXC39X7VcyjPkeQLzJ2lORR9opVZBVCQke32tYLkk6JyaFGfuKTUL9Q==}
+
+  '@unocss/preset-legacy-compat@66.1.1':
+    resolution: {integrity: sha512-rRHTFqbn7RJiOZuu/hVv0NcCdhvqg7/riW/rCs191vYr0QQ4AkItWDXrlyP+GgZjzTia6NJibLfL2YkXD2FVvA==}
 
   '@unocss/preset-mini@66.0.0':
     resolution: {integrity: sha512-d62eACnuKtR0dwCFOQXgvw5VLh5YSyK56xCzpHkh0j0GstgfDLfKTys0T/XVAAvdSvAy/8A8vhSNJ4PlIc9V2A==}
@@ -3745,6 +3754,8 @@ snapshots:
 
   '@unocss/core@66.1.0-beta.13': {}
 
+  '@unocss/core@66.1.1': {}
+
   '@unocss/extractor-arbitrary-variants@66.0.0':
     dependencies:
       '@unocss/core': 66.0.0
@@ -3818,6 +3829,10 @@ snapshots:
       ofetch: 1.4.1
     transitivePeerDependencies:
       - supports-color
+
+  '@unocss/preset-legacy-compat@66.1.1':
+    dependencies:
+      '@unocss/core': 66.1.1
 
   '@unocss/preset-mini@66.0.0':
     dependencies:
