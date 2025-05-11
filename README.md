@@ -1,14 +1,10 @@
 # slidev-theme-prismatic
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-prismatic?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-prismatic)
+<!-- [![NPM version](https://img.shields.io/npm/v/slidev-theme-prismatic?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-prismatic) -->
 
 A colorful, card-based theme for [Slidev](https://github.com/slidevjs/slidev).
 
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+**Live demo**: https://nixfo.github.io/slidev-theme-prismatic
 
 ## Install
 
@@ -45,7 +41,8 @@ layout: intro
 <div class="text-sm opacity-50">Footer placeholder</div>
 ```
 
-![Intro layout](/assets/intro.png)
+![Intro layout light](/assets/intro.png)
+![Intro layout dark](/assets/intro-dark.png)
 
 ### `card-grid`
 Grid layout optimized for ContentCard components
@@ -87,7 +84,8 @@ Continuous improvement of key indicators
 </ContentCard>
 ```
 
-![card-grid layout](/assets/card-grid.png)
+![card-grid layout light](/assets/card-grid.png)
+![card-grid layout dark](/assets/card-grid-dark.png)
 
 ### `interactive-content`
 Two-column interactive layout with selection and dynamic content
@@ -143,7 +141,8 @@ const activeSection = ref(null)
 </script>
 ```
 
-![interactive-content layout](/assets/interactive-content.png)
+![interactive-content layout light](/assets/interactive-content.png)
+![interactive-content layout dark](/assets/interactive-content-dark.png)
 
 ## Components
 
@@ -162,7 +161,8 @@ Content of the card
 
 ### Utilities
 
-![Utilities components](/assets/utilities.png)
+![Utilities components light](/assets/utilities.png)
+![Utilities components dark](/assets/utilities-dark.png)
 
 ## Contributing
 
