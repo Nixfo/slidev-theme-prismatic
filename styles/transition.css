@@ -1,0 +1,18 @@
+.fade-gradient-enter-active,
+.fade-gradient-leave-active {
+  transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-gradient-enter-from {
+  opacity: 0;
+  background: linear-gradient(90deg, rgba(93, 131, 146, 0.25), rgba(245, 158, 11, 0.25));
+  clip-path: circle(10% at center);
+  transform: scale(0.97);
+}
+
+.fade-gradient-leave-to {
+  opacity: 0;
+  background: linear-gradient(90deg, rgba(93, 131, 146, 0.15), rgba(245, 158, 11, 0.15));
+  clip-path: circle(120% at center);
+  transform: scale(1.03);
+}
