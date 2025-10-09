@@ -7,14 +7,13 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@slidev/types':
-        specifier: ^51.6.0
-        version: 51.6.0(@nuxt/kit@3.17.1)(@vue/compiler-sfc@3.5.13)(markdown-it-async@2.2.0)(postcss@8.5.3)(typescript@5.8.3)(vite@6.3.4(@types/node@18.19.87)(jiti@2.4.2)(yaml@2.7.1))
     devDependencies:
       '@slidev/cli':
         specifier: ^51.6.0
         version: 51.6.0(@babel/parser@7.27.1)(@nuxt/kit@3.17.1)(@types/markdown-it@14.1.2)(@types/node@18.19.87)(@vue/compiler-sfc@3.5.13)(markdown-it-async@2.2.0)(postcss@8.5.3)
+      '@slidev/types':
+        specifier: ^51.6.0
+        version: 51.6.0(@nuxt/kit@3.17.1)(@vue/compiler-sfc@3.5.13)(markdown-it-async@2.2.0)(postcss@8.5.3)(typescript@5.8.3)(vite@6.3.4(@types/node@18.19.87)(jiti@2.4.2)(yaml@2.7.1))
       '@unocss/preset-legacy-compat':
         specifier: ^66.1.1
         version: 66.1.1
