@@ -158,6 +158,25 @@ Content of the card
 </ContentCard>
 ```
 
+### `<Alert />`
+
+This utility component displays contextual callouts.
+
+Supported types: `success`, `tip`, `info`, `warning`, `danger`.
+
+```html
+<Alert type="tip">
+Use <code>v-click</code> to reveal one idea at a time.
+</Alert>
+```
+
+Props:
+
+- `type` (default: `info`)
+- `icon` (optional, accepts Uno icon classes like `i-carbon:idea`)
+
+![Alert component light](/assets/alerts.png)
+![Alert component dark](/assets/alerts-dark.png)
 
 ### Utilities
 
