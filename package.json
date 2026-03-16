@@ -1,5 +1,5 @@
 {
-  "name": "@nixfo/slidev-theme-prismatic",
+  "name": "slidev-theme-prismatic",
   "version": "0.0.1-alpha",
   "type": "module",
   "description": "A colorful, card-based theme for Slidev.",
