@@ -44,6 +44,24 @@ layout: intro
 ![Intro layout light](/assets/intro.png)
 ![Intro layout dark](/assets/intro-dark.png)
 
+### `whoami`
+Ready-to-use presenter profile slide with avatar, name, role and company
+
+```markdown
+---
+layout: whoami
+name: Jane Doe
+role: Lead Developer Advocate
+company: Slidev
+avatar: /avatar.jpg
+---
+
+Optional short bio or links (LinkedIn, GitHub, website)
+```
+
+![whoami layout light](/assets/whoami.png)
+![whoami layout dark](/assets/whoami-dark.png)
+
 ### `card-grid`
 Grid layout optimized for ContentCard components
 

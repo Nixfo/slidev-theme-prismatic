@@ -76,6 +76,16 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+layout: whoami
+name: Jane Doe
+role: Lead Developer Advocate
+company: Slidev
+avatar: /avatar_profile.png
+---
+
+Developing themes for Slidev...
+
+---
 src: ./icon-block-example.md
 ---
 
