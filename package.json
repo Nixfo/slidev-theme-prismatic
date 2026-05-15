@@ -42,5 +42,8 @@
         "mono": "Fira Code"
       }
     }
+  },
+  "pnpm": {
+    "allowBuilds": ["esbuild"]
   }
 }
