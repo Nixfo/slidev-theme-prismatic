@@ -28,9 +28,6 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm
         
-      - name: Approve esbuild build script
-        run: pnpm approve-builds esbuild
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 

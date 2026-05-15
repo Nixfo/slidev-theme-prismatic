@@ -42,5 +42,10 @@
         "mono": "Fira Code"
       }
     }
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
