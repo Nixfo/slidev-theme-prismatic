@@ -3,7 +3,7 @@ name: Deploy pages
 on:
   workflow_dispatch:
   push:
-    branches: [main, ci/fix-pnpm-approve]
+    branches: [main]
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
 
       - name: Install pnpm
         run: npm install -g pnpm
-        
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
